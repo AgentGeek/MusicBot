@@ -1,0 +1,27 @@
+{
+  "name": "JMusicBot",
+  "description": "Free Discord bot able to host on heroku",
+  "keywords": [
+    "Heroku",
+    "music-bot",
+    "Discord",
+    "Discord Bot",
+    "Entertainment",
+  ],
+  "env": {
+    "NO_PRE_DEPLOY": {
+      "description": "ByPass the predeployment check",
+      "value": "true",
+      "required": true
+    },
+    "JAVA_OPTS": {
+      "description": "JAVA Options",
+      "value": "-Xmx384m -Xss512k -XX:+UseCompressedOop"
+    }
+  },
+  "buildpacks": [
+	{
+		"url": "https://github.com/energizedwork/heroku-buildpack-runnable-jar.git"
+	}
+  ]
+}
