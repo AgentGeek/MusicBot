@@ -1,6 +1,6 @@
 {
   "name": "JMusicBot",
-  "description": "Free Discord bot able to host on heroku",
+  "description": "Free Discord bot able to host on heroku Based on Jagrosh's MusicBot",
   "repository": "https://github.com/AgentGeek/MusicBot",
   "keywords": [
     "Heroku",
